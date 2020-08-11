@@ -33,7 +33,7 @@ This web scraper is a scraper that display The Top 100 players for the 2017-18 N
 ## Deployment
 
 1. Git clone this repo and cd the to the `capstone_ruby` directory.
-2. Run `bundle install` in command line to install Nokogiri and HTTParty Gem.
+2. Run `bundle install` in command line to install Nokogiri and colorize.
 3. Run `ruby bin/nba_players.rb`.
 
 ## Run tests
