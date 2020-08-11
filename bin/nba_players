@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require "bundler/setup"
-require "nba_players"
+require 'bundler/setup'
+require 'nba_players'
 
 NbaPlayers::CLI.start

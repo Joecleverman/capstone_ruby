@@ -4,8 +4,6 @@
 
 This web scraper is a scraper that display The Top 100 players for the 2017-18 NBA season.
 
-![demo-image]()
-
 ## Built With
 
 - Ruby
@@ -16,22 +14,21 @@ This web scraper is a scraper that display The Top 100 players for the 2017-18 N
 
 ```
 ├── bin
-│   └── console
+    └── console
     └── nba_players
     └── setup
 └── lib
-    └── scraper.rb
-    └── nba_players.rb
+    ├── nba_players
+       └── cli.rb
+       └── players.rb
+       └── scraper.rb
+       └── players.rb
+       └── version.rb
 └── spec
-    └── scraper_spec.rb
-    └──
+    └── version_spec.rb
     └── spec_helper.rb
 ├── README.md
 ```
-
-## Video Presentation
-
-Feel free to check out this [link]()
 
 ## Deployment
 
@@ -44,7 +41,7 @@ Feel free to check out this [link]()
 1. Git clone this repo and cd the to the `capstone_ruby` directory.
 2. Install rspec with `gem install rspec`.
 3. Run `rspec` in Command Line.
-4. `0 examples, 0 failures` will be shown on the screen.
+4. `2 examples, 0 failures` will be shown on the screen.
 
 ## What it does?
 
@@ -57,7 +54,7 @@ Feel free to check out this [link]()
 👤 **Josue Abraham**
 
 - Github: [@joecleverman](https://github.com/joecleverman)
-- Linkedin: [Josue Abraham](https://www.linkedin.com/in/a2josue/)
+- Linkedin: [Josue Abraham](https://www.linkedin.com/in/josueabraham/)
 
 ## 🤝 Contributing
 
