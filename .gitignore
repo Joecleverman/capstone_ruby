@@ -1,3 +1,5 @@
 console
 setup
 Rakefile
+nba_players.gemspec
+nba_players.rb
