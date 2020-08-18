@@ -6,5 +6,5 @@ require 'open-uri'
 require 'terminal-table'
 require 'colorize'
 
-require 'nba_players/players'
-require 'nba_players/scraper'
+require_relative 'nba_players/players'
+require_relative 'nba_players/scraper'
