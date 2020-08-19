@@ -28,10 +28,6 @@ Style/AndOr:
   Enabled: false
 Style/DefWithParentheses:
   Enabled: false
-Style/ExponentialNotation:
-  Enabled: false
-Style/SlicingWithRange:
-  Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
 
@@ -39,10 +35,6 @@ Layout/HashAlignment:
   EnforcedColonStyle: key
 Layout/ExtraSpacing:
   AllowForAlignment: false
-Layout/EmptyLinesAroundAttributeAccessor:
-  Enabled: false
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: false
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
