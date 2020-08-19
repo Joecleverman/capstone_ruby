@@ -1,9 +1,6 @@
 # NBA Players
 
-![Linters](https://github.com/joecleverman/capstone_ruby/workflows/Linters/badge.svg)
-
-> This project is a ruby capstone project from the [Microverse](https://www.microverse.org/) technical curriculum.
-> Ruby Capstone Project of Microverse, which students have to complete a real-world-like project within 72 hours according to [this project specifications](https://www.notion.so/microverse/Build-your-own-scraper-f54eaca54d8a4d758a5f0141468127a8)
+> This project is a ruby capstone project from the [Microverse](https://www.microverse.org/) technical curriculum, which students have to complete a real-world-like project within 72 hours according to [this project specifications](https://www.notion.so/microverse/Build-your-own-scraper-f54eaca54d8a4d758a5f0141468127a8)
 
 This web scraper is a scraper that display The Top 100 players for the 2017-18 NBA season.
 
@@ -19,11 +16,11 @@ Feel free to check out this [link](https://www.loom.com/share/4739adb7e5034fdd93
 
 - [Project Structure](#project-structure)
 
-- [How to deploy this scraper](#how-to-deploy-this-scraper)
+- [How to deploy this scraper](#deployment)
 
 - [How to use this Web scraper](#how-to-use-this-web-scraper)
 
-- [Contributions](#contributions)
+- [Contributions](#contributing)
 
 - [Authors](#author)
 
@@ -94,7 +91,7 @@ The Scraper presents retrieved data to the user in 3 phases all of which depend 
 1. Git clone this repo and cd the to the `capstone_ruby` directory.
 2. Install rspec with `gem install rspec`.
 3. Run `rspec` in Command Line.
-4. `2 examples, 0 failures` will be shown on the screen.
+4. `4 examples, 0 failures` will be shown on the screen.
 
 ## How to use this Web Scraper
 

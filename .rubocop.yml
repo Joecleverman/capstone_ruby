@@ -2,6 +2,7 @@ AllCops:
   Exclude:
     - "Guardfile"
     - "Rakefile"
+    - "nba_players.gemspec"
 
   DisplayCopNames: true
 
@@ -54,4 +55,8 @@ Style/HashEachMethods:
 Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
+  Enabled: false
+Style/TrivialAccessors:
+  Enabled: false
+Style/ClassVars:
   Enabled: false

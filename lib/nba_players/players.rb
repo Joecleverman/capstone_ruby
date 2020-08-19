@@ -1,6 +1,7 @@
 module NbaPlayers
   class Players
-    attr_accessor :trend, :name, :team, :position, :statistics, :rank, :info
+    attr_reader :trend, :name, :team, :position, :statistics, :rank, :info
+    attr_writer :trend, :name, :team, :position, :statistics, :rank, :info
     @@all = []
 
     def self.all

@@ -5,6 +5,7 @@ require 'nba_players/version'
 Gem::Specification.new do |spec|
   spec.name = 'nba_players'
   spec.version = NbaPlayers::VERSION
+  spec.required_ruby_version = '>= 2.6.1'
   spec.authors = ["'Josue Abraham'"]
   spec.email = ["'josuea@noukod.com'"]
 

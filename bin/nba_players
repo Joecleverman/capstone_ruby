@@ -3,7 +3,7 @@
 require 'bundler/setup'
 require 'nba_players'
 
-# rubocop:disable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
+# rubocop:disable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity, Metrics/BlockNesting
 module NbaPlayers
   class CLI
     URL = 'https://www.washingtonpost.com/graphics/2017/sports/nba-top-100-players-2017/?noredirect=on&utm_term=.adcc13ae7e38'.freeze
@@ -66,7 +66,6 @@ module NbaPlayers
             input = gets.strip.to_i
             input = 100 if input > 100
 
-            # print_player index
             player = NbaPlayers::Players.find input
             print_player player
 
@@ -161,8 +160,8 @@ module NbaPlayers
       puts Terminal::Table.new title: title[by_input.to_sym], rows: rows, style: { all_separators: true }
     end
   end
-  end
+end
 
-# rubocop:enable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
+# rubocop:enable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity, Metrics/BlockNesting
 
 NbaPlayers::CLI.start
