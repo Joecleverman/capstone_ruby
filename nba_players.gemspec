@@ -1,6 +1,8 @@
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'nba_players/version'
+require 'players'
+require 'scraper'
+require 'version'
 
 Gem::Specification.new do |spec|
   spec.name = 'nba_players'
