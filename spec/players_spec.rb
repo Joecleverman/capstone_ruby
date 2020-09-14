@@ -11,6 +11,6 @@ end
 
 describe '#self.create_players_from_collection' do
   it 'returns a hash' do
-    expect(NbaPlayers::Players.create_players_from_collection({})).to be_aHash
+    expect(NbaPlayers::Players.create_players_from_collection({})).to be_a(Hash)
   end
 end
