@@ -62,17 +62,16 @@ The Scraper presents retrieved data to the user in 3 phases all of which depend 
     └── nba_players
     └── setup
 └── lib
-    ├── nba_players
-       └── cli.rb
-       └── players.rb
-       └── scraper.rb
-       └── players.rb
-       └── version.rb
+    └── nba_players.rb
+    └── players.rb
+    └── scraper.rb
+    └── version.rb
 └── spec
+    └── cli_spec.rb
     └── players_spec.rb
     └── scraper_spec.rb
-    └── version_spec.rb
     └── spec_helper.rb
+    └── version_spec.rb
 ├── README.md
 ```
 
@@ -91,7 +90,7 @@ The Scraper presents retrieved data to the user in 3 phases all of which depend 
 1. Git clone this repo and cd the to the `capstone_ruby` directory.
 2. Install rspec with `gem install rspec`.
 3. Run `rspec` in Command Line.
-4. `4 examples, 0 failures` will be shown on the screen.
+4. `9 examples, 0 failures` will be shown on the screen.
 
 ## How to use this Web Scraper
 
@@ -136,7 +135,3 @@ Give a ⭐️ if you like this project!
 
 - Microverse
 - Nokogiri gem
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
