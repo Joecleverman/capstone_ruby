@@ -24,6 +24,7 @@ module NbaPlayers
     def self.find(input)
       all[input - 1]
     end
+    # binding.pry
 
     def self.sort(input = 1)
       choices = %w[rank AGE PPG RPG APG THREEPT BLK FT]

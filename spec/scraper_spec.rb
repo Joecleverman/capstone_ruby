@@ -3,7 +3,7 @@ require_relative '../lib/scraper.rb'
 describe 'Scraper' do
   let(:scraper) { Scraper.new }
 
-  describe '#scrape_page' do
+  describe '#self.scrape_page' do
     it 'should return value from a page' do
       expect(NbaPlayers::Scraper).not_to be nil
     end
