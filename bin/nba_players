@@ -109,7 +109,7 @@ module NbaPlayers
       end
 
       puts 'Goodbye !!'
-      puts 'See you soon 👋!!!'.blue
+      puts 'See you soon!!!'.blue
     end
 
     def self.print_players(from_number, order = 'rank', stats = '')
